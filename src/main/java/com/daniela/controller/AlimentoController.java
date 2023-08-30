@@ -19,7 +19,7 @@ public class AlimentoController {
 	private IAlimentoRepository alimentoRepository;
 	
 	@GetMapping("/alimentos")
-	public String listarPaises(Model model) {
+	public String listarAlimentos(Model model) {
 
 		List<Alimento> alimentos = alimentoRepository.findAll();
 		model.addAttribute("alimentos", alimentos);
