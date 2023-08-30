@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Lista de Alimentos</title>
+</head>
+<body>
+    <h1>Lista de Alimentos</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Categoría</th>
+            <th>Color</th>
+            <th>Lugar de procedencia</th>
+        </tr>
+        <tr th:each="alimento : ${alimentos}">
+            <td th:text="${alimento.id}"></td>
+            <td th:text="${alimento.nombre}"></td>
+            <td th:text="${alimento.categoria}"></td>
+            <td th:text="${alimento.color}"></td>
+            <td th:text="${alimento.lugarProcedencia}"></td>
+        </tr>
+    </table>
+</body>
+</html>
