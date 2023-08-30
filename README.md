@@ -1,15 +1,15 @@
-#Taller 1 - Apps Empresariales
+# Taller 1 - Apps Empresariales
 Este proyecto busca desarrollar los conocimientos vistos en la última clase.
 
-###Pre-Requisitos
+### Pre-Requisitos
 * Java
 * Spring Web
 * Thymeleaf
 * JPA
 * MySQL
 
-###Metodología
+### Metodología
 Git-Flow
 
-###Autor
+### Autor
 Daniela Villalba Torres
