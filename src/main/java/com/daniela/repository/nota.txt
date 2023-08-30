@@ -1,0 +1,1 @@
+Aquí van las interfaces que necesitará el proyecto para la conexión a la BD.

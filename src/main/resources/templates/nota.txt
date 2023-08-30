@@ -1,0 +1,1 @@
+Aquí van las interfaces gráficas que necesitará el proyecto para mostrar los datos.
