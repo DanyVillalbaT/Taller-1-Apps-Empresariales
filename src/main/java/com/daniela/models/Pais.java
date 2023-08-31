@@ -15,13 +15,13 @@ public class Pais {
 	private String nombre;
 	private String capital;
 	private String continente;
-	private String cantHabitantes;
+	private int cantHabitantes;
 	
 	public Pais() {
 		super();
 	}
 
-	public Pais(Integer id, String nombre, String capital, String continente, String cantHabitantes) {
+	public Pais(Integer id, String nombre, String capital, String continente, int cantHabitantes) {
 		super();
 		this.id = id;
 		this.nombre = nombre;
@@ -62,11 +62,11 @@ public class Pais {
 		this.continente = continente;
 	}
 
-	public String getCantHabitantes() {
+	public int getCantHabitantes() {
 		return cantHabitantes;
 	}
 
-	public void setCantHabitantes(String cantHabitantes) {
+	public void setCantHabitantes(int cantHabitantes) {
 		this.cantHabitantes = cantHabitantes;
 	}
 	
