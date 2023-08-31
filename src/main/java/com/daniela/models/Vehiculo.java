@@ -17,13 +17,13 @@ public class Vehiculo {
 	private String nombre;
 	private String marca;
 	private Year modelo;
-	private String kilometraje;
+	private int kilometraje;
 	
 	public Vehiculo() {
 		super();
 	}
 
-	public Vehiculo(int id, String nombre, String marca, Year modelo, String kilometraje) {
+	public Vehiculo(int id, String nombre, String marca, Year modelo, int kilometraje) {
 		super();
 		this.id = id;
 		this.nombre = nombre;
@@ -64,11 +64,11 @@ public class Vehiculo {
 		this.modelo = modelo;
 	}
 
-	public String getKilometraje() {
+	public int getKilometraje() {
 		return kilometraje;
 	}
 
-	public void setKilometraje(String kilometraje) {
+	public void setKilometraje(int kilometraje) {
 		this.kilometraje = kilometraje;
 	}
 	
